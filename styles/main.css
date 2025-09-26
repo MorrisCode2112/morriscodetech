@@ -1,0 +1,71 @@
+.navbar-logo {
+  background-color: #212121;
+  color: #ffffff;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.navbar {
+  position: sticky; /* sticky, not fixed */
+  top: 0;           /* distance from top */
+  z-index: 999;     /* make sure it’s above content */
+  background-image: url("../assets/banner.jpg");
+  border: 2px solid black;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-link:hover {
+  color: #ff0000;
+}
+
+.navbar-link:active {
+  background-color: #737373;
+}
+
+.home-main-content {
+  border: 2px solid rgb(233, 0, 0);
+  margin: 0;
+  padding-top: 0;
+  min-height: 100vh;
+  background-image: url(../assets/mainpageback.jpg);
+  background-size: cover;
+
+}
+
+.main-paragraph {
+  background-color: #00000098;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 250, 250)
+}
+
+.footer {
+  position: bottom;
+}
